@@ -4,6 +4,8 @@ REALM = os.environ.get('REALM', 'local')
 
 ROOT_URL = "http://localhost:4000"
 
+BASE_URL = os.environ.get("BASE_URL", False)
+
 PORT_NUMBER = 4000
 
 ENABLE_CORS = False
